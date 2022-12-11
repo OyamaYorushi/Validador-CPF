@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <script type="module" src="src/main.js" defer></script>
+    <title>Validador CPF</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center">Validador de CPF</h1>
+        <div class="divForm">
+            <form action="#" id="formCpf" method="post">
+                <input type="text" id="cpf" name="cpf" placeholder="Digite o cpf que deseja validar" minlength="11" maxlength="14" required>
+                <button type="submit" id="validate">Validar</button>
+            </form>
+        </div>
+        <div class="spacing">
+            <ul id="result"></ul>
+        </div>
+    </div>
+    
+</body>
+</html>
